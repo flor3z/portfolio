@@ -3,7 +3,7 @@ import Introduction from './components/Introduction';
 
 function App() {
   return (
-    <div>
+    <div className="">
       <Header />
       <Introduction />
     </div>
