@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 import { useState } from 'react';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Header darkMode={darkMode} setDarkMode={setDarkMode} />
         <Introduction />
         <Portfolio />
+        <Contact />
       </div>
     </div>
   );

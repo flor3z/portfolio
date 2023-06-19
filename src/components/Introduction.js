@@ -29,7 +29,7 @@ function Introduction() {
           </h2>
           <p className="text-xl font-thin py-2 dark:text-slate-300">
             Looking to always break through new boundries, I have leveraged
-            different resources such as Udemey & YouTube to aid in the
+            different resources such as Udemy & YouTube to aid in the
             development of my programatic understanding. With this new-found
             knowledge, I have taken a self-taught approach to creating various
             projects of responsive designs. Using React's component style of

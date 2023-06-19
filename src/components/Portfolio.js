@@ -24,7 +24,7 @@ function Portfolio() {
           regarding humidity, real-feel temperature and more.
         </p>
         <a
-          className="rounded-full bg-blue-600 text-white p-2"
+          className="rounded-full bg-blue-600 text-white p-2 dark:bg-slate-800"
           target="blank_"
           href="https://flor3z.github.io/theWeatherApp/"
         >
@@ -47,7 +47,7 @@ function Portfolio() {
           of a match between two teams. Or keep score for any game.
         </p>
         <a
-          className="rounded-full bg-blue-600 text-white p-2"
+          className="rounded-full bg-blue-600 text-white p-2 dark:bg-slate-800"
           target="blank_"
           href="https://flor3z.github.io/scoreBoard-hooks/"
         >
@@ -59,8 +59,8 @@ function Portfolio() {
           alt="portrait"
           className="mx-auto rounded-xl"
           src={todo}
-          width={400}
-          height={400}
+          width={300}
+          height={300}
         />
         <h3 className="font-semibold text-xl dark:text-white py-2">
           Todo List
@@ -70,7 +70,7 @@ function Portfolio() {
           update and complete them with this simple app!
         </p>
         <a
-          className="rounded-full bg-blue-600 text-white p-2"
+          className="rounded-full bg-blue-600 text-white p-2 dark:bg-slate-800"
           target="blank_"
           href="https://flor3z.github.io/newToDo/"
         >
@@ -94,7 +94,7 @@ function Portfolio() {
           focusing in small intervals.
         </p>
         <a
-          className="rounded-full bg-blue-600 text-white p-2"
+          className="rounded-full bg-blue-600 text-white p-2 dark:bg-slate-800"
           target="blank_"
           href="https://flor3z.github.io/Pomodoro/"
         >
@@ -118,7 +118,7 @@ function Portfolio() {
           name and get the stats along with a fun image.
         </p>
         <a
-          className="rounded-full bg-blue-600 text-white p-2"
+          className="rounded-full bg-blue-600 text-white p-2 dark:bg-slate-800"
           target="blank_"
           href="https://flor3z.github.io/pokemon-search/"
         >
