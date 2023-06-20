@@ -7,7 +7,7 @@ import pokemon from '../Images/web5.png';
 
 function Portfolio() {
   return (
-    <div className="flex flex-col gap-10 p-10 lg:flex-row lg:flex-warp">
+    <div className="flex flex-col gap-10 p-10  lg:flex-row lg:flex-warp">
       <div className="dark:bg-gray-600 basis-1/3 flex-1 text-center shadow-2xl p-10 rounded-xl my-5 mx-auto">
         <img
           alt="portrait"
