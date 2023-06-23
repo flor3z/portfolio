@@ -9,7 +9,7 @@ function Contact() {
     'transition ease-in-out delay-50 hover:-translate-y-2 hover:scale-110 duration-300';
 
   return (
-    <div className="sm:max-w-4xl mt-4 border border-solid rounded-xl border-gray-700 shadow-xl flex-col items-center mx-auto p-4">
+    <div className="sm:max-w-4xl mt-4 max-sm:mx-4 border border-solid rounded-xl border-gray-700 shadow-xl flex-col items-center mx-auto p-4">
       <div className="text-6xl font-bold flex justify-center p-6 text-center dark:text-white">
         Contact me using these platforms!
       </div>
@@ -20,10 +20,10 @@ function Contact() {
         />
         <BsLinkedin className={`shadow-lg ${animation} text-blue-500`} />
         <FaFreeCodeCamp
-          className={`shadow-lg ${animation} bg-slate-900 rounded-sm text-white`}
+          className={`shadow-lg ${animation} bg-slate-900 dark:bg-slate-800 rounded-sm text-white`}
         />
       </div>
-      <div className="my-2 text-center">
+      <div className="my-2 text-center max-sm:text-sm">
         <p className="p-2  dark:text-slate-300">• mflorez1993@gmail.com •</p>
         <p className="p-2 dark:text-slate-300">• https://github.com/flor3z •</p>
         <p className="p-2 dark:text-slate-300">

@@ -1,17 +1,17 @@
 import React from 'react';
 import picture from '../Images/me-portfolio-crop-removebg-colour.png';
-
+// max-sm:max-w-xs sm:max-w-xs
 function Introduction() {
   return (
-    <div className="flex-col items-center sm:max-w-4xl mx-auto">
-      <div className="flex mx-auto gap-24 max-sm:flex-wrap max-sm:mt-4 p-4 mt-10">
+    <div className="flex-col items-center max-w-4xl mx-auto">
+      <div className="flex justify-between items-center max-sm:flex-wrap max-sm:mt-5 p-4 mt-16">
         <img
           src={picture}
-          className="max-sm:max-w-xs sm:max-w-sm border-spacing-10 rounded-xl shadow-gray-400 shadow-xl"
+          className="h-auto sm:max-w-xs rounded-xl shadow-gray-400 shadow-xl"
           alt="portrait"
         />
-        <div className="flex-col">
-          <h2 className="text-6xl mb-2 font-semibold dark:text-slate-100">
+        <div className="flex-col md:max-w-xs">
+          <h2 className="text-6xl my-2 font-semibold dark:text-slate-100">
             Hello there!
           </h2>
           <div className="text-2xl font-thin py-2 dark:text-slate-300">
@@ -22,8 +22,8 @@ function Introduction() {
         </div>
       </div>
 
-      <div className=" my-10 flex justify-between max-sm:flex-wrap p-4">
-        <div className="flex-col">
+      <div className="my-10 flex justify-between max-md:flex-wrap p-4">
+        <div className="flex-col max-w-md">
           <h2 className="text-6xl my-2 front-semibold dark:text-slate-100">
             My Journey Until Now
           </h2>
@@ -37,7 +37,7 @@ function Introduction() {
             development path in motion.
           </p>
         </div>
-        <div className="flex h-fit flex-wrap p-2 mt-4">
+        <div className="flex h-fit flex-wrap p-5 mt-6 justify-start">
           <div className="border rounded-lg dark:bg-slate-600 dark:text-slate-200 border-gray-800 m-2 p-2">
             JAVASCRIPT
           </div>
