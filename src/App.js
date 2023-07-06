@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className={darkMode ? 'dark' : ''}>
-      <div className="dark:bg-gray-900 pb-4">
+      <div className="dark:bg-gray-900">
         <Header darkMode={darkMode} setDarkMode={setDarkMode} />
         <Introduction />
         <Portfolio />
