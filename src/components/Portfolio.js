@@ -10,7 +10,7 @@ function Portfolio() {
   const { ref, inView } = useInView();
 
   return (
-    <div>
+    <div id="projects">
       <div className="dark:text-white flex justify-center text-6xl my-8 font-semibold items-center">
         Projects
       </div>

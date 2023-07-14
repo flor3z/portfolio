@@ -32,9 +32,9 @@ function Introduction() {
           </h2>
           <div className="indent-3 text-xl  font-thin py-2 dark:text-slate-300">
             <p>
-              Looking to always break through new boundries, I have leveraged
+              Looking to always break through new boundaries, I have leveraged
               different resources such as Udemy & YouTube to aid in the
-              development of my programatic understanding.
+              development of my programmatic understanding.
             </p>
 
             <br />
@@ -60,13 +60,7 @@ function Introduction() {
             GIT
           </div>
           <div className="border-2 hover:bg-blue-400 hover:text-white  border-blue-500 rounded-lg dark:bg-slate-600 dark:text-slate-200 dark:border-gray-800 dark:hover:bg-slate-500 m-2 p-2">
-            VERSION CONTROL
-          </div>
-          <div className="border-2 hover:bg-blue-400 hover:text-white  border-blue-500 rounded-lg dark:bg-slate-600 dark:text-slate-200 dark:border-gray-800 dark:hover:bg-slate-500 m-2 p-2">
-            API USAGE
-          </div>
-          <div className="border-2 hover:bg-blue-400 hover:text-white  border-blue-500 rounded-lg dark:bg-slate-600 dark:text-slate-200 dark:border-gray-800 dark:hover:bg-slate-500 m-2 p-2">
-            DEBUGGING
+            VISUAL STUDIO CODE
           </div>
           <div className="border-2 hover:bg-blue-400 hover:text-white  border-blue-500 rounded-lg dark:bg-slate-600 dark:text-slate-200 dark:border-gray-800 dark:hover:bg-slate-500 m-2 p-2">
             SEMANTIC UI
@@ -82,6 +76,9 @@ function Introduction() {
           </div>
           <div className="border-2 hover:bg-blue-400 hover:text-white  border-blue-500 rounded-lg dark:bg-slate-600 dark:text-slate-200 dark:border-gray-800 dark:hover:bg-slate-500 m-2 p-2">
             BOOTSTRAP
+          </div>
+          <div className="border-2 hover:bg-blue-400 hover:text-white  border-blue-500 rounded-lg dark:bg-slate-600 dark:text-slate-200 dark:border-gray-800 dark:hover:bg-slate-500 m-2 p-2">
+            MATERIAL UI
           </div>
         </div>
       </div>

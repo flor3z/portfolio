@@ -9,7 +9,10 @@ function Contact() {
     'transition ease-in-out delay-50 hover:-translate-y-2 hover:scale-110 duration-300';
 
   return (
-    <div className="mt-4 bg-blue-400 dark:bg-slate-600 flex-col items-center mx-auto p-4">
+    <div
+      id="contact"
+      className="mt-4 bg-blue-400 dark:bg-slate-600 flex-col items-center mx-auto p-4"
+    >
       <div className="text-4xl md:text-6xl text-white  font-bold flex justify-center p-6 text-center">
         Contact me!
       </div>
@@ -36,6 +39,7 @@ function Contact() {
           />
         </a>
         <a
+          id="contact"
           href="https://www.freecodecamp.org/fcc2a56f848-5859-4dfa-acc6-a0bc6e53ed84"
           target="blank_"
         >
@@ -45,7 +49,7 @@ function Contact() {
         </a>
       </div>
       <div className="my-2 text-center max-sm:text-sm">
-        <p className="p-2 mt-3 md:mt-6 dark:text-slate-900">
+        <p className="p-2 mt-3 md:mt-6 text-white">
           • Made in 2023 | Matheo Florez •
         </p>
       </div>
