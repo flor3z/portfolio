@@ -45,7 +45,7 @@ function Header({ darkMode, setDarkMode }) {
           )}
         </button>
       </div>
-      <div className="text-2xl lg:text-4xl fixed top-auto right-2 bottom-2 p-1  text-slate-800 z-50 dark:text-slate-200">
+      <div className="text-3xl lg:text-4xl fixed top-auto right-2 bottom-2 p-1  text-slate-800 z-50 dark:text-slate-200">
         <button
           onClick={() => {
             scroll.scrollToTop();
