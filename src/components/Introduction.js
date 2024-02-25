@@ -80,6 +80,12 @@ function Introduction() {
           <div className="border-2 hover:bg-blue-400 hover:text-white  border-blue-500 rounded-lg dark:bg-slate-600 dark:text-slate-200 dark:border-gray-800 dark:hover:bg-slate-500 m-2 p-2">
             MATERIAL UI
           </div>
+          <div className="border-2 hover:bg-blue-400 hover:text-white  border-blue-500 rounded-lg dark:bg-slate-600 dark:text-slate-200 dark:border-gray-800 dark:hover:bg-slate-500 m-2 p-2">
+            REACT ROUTER
+          </div>
+          <div className="border-2 hover:bg-blue-400 hover:text-white  border-blue-500 rounded-lg dark:bg-slate-600 dark:text-slate-200 dark:border-gray-800 dark:hover:bg-slate-500 m-2 p-2">
+            FIREBASE
+          </div>
         </div>
       </div>
     </div>
