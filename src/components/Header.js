@@ -2,7 +2,7 @@ import { React } from 'react';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { BsSunFill } from 'react-icons/bs';
 import { BsFillArrowUpCircleFill } from 'react-icons/bs';
-import resume from '../Resume/Matheo-Florez-2024.pdf';
+import resume from '../Resume/Matheo-Florez-2024-v2.pdf';
 import { Link } from 'react-scroll';
 import { animateScroll as scroll } from 'react-scroll';
 
