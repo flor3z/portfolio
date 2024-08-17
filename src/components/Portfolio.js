@@ -7,6 +7,7 @@ import pokemon from '../Images/web5.png';
 import galleria from '../Images/web6.png';
 import hiscape from '../Images/web7.png';
 import onebody from '../Images/web8.png';
+import tdtrust from '../Images/web9.png';
 import { useInView } from 'react-intersection-observer';
 
 function Portfolio() {
@@ -51,34 +52,35 @@ function Portfolio() {
             Visit Page
           </a>
         </div>
+
         <div
           ref={ref}
           className={`${
             inView
-              ? 'dark:bg-gray-600 bg-white text-center shadow-xl p-10 rounded-xl my-5  justify-center animate-fade-left animate-once animate-duration-1000 animate-delay-500 animate-ease-in-out'
+              ? 'dark:bg-gray-600 bg-white text-center shadow-xl p-10 rounded-xl my-5 mx-auto  animate-fade-left animate-once animate-duration-1000 animate-delay-500 animate-ease-in-out'
               : ''
           }`}
         >
           <img
             alt="portrait"
             className=" mx-auto rounded-xl"
-            src={hiscape}
+            src={tdtrust}
             width={300}
             height={300}
           />
           <h3 className="font-semibold text-xl dark:text-white py-2">
-            Business Website
+            Random Name Selector
           </h3>
           <p className="dark:text-slate-300 py-2 mb-2">
-            A Small business webpage built for HISCAPE, a local landscaping
-            company that is starting new. Using react-router for navigation to
-            move seamlessly through pages. A webpage with real world
-            application.
+            An application designed for TD Canada Trust, this random name
+            selector app was built purposely for a 50/50 draw. Participants
+            could purchase ballets and have their names entered in to be
+            selected for a grand prize!
           </p>
           <a
             className="rounded-full bg-blue-500 hover:bg-blue-700 text-white p-2 dark:bg-slate-900  dark:hover:bg-slate-700"
             target="blank_"
-            href="https://www.hiscape.ca/"
+            href="https://flor3z.github.io/td-draw/"
           >
             Visit Page
           </a>
@@ -118,30 +120,33 @@ function Portfolio() {
         </div>
 
         <div
+          ref={ref}
           className={`${
             inView
-              ? 'dark:bg-gray-600 bg-white  text-center shadow-xl p-10 rounded-xl my-5 mx-auto animate-fade-left animate-once animate-duration-1000 animate-delay-700 animate-ease-in-out'
+              ? 'dark:bg-gray-600 bg-white text-center shadow-xl p-10 rounded-xl my-5  justify-center animate-fade-left animate-once animate-duration-1000 animate-delay-700 animate-ease-in-out'
               : ''
           }`}
         >
           <img
             alt="portrait"
             className=" mx-auto rounded-xl"
-            src={weather}
+            src={hiscape}
             width={300}
             height={300}
           />
           <h3 className="font-semibold text-xl dark:text-white py-2">
-            Weather & Forecast
+            Business Website
           </h3>
           <p className="dark:text-slate-300 py-2 mb-2">
-            Check your local weather by searching your city and review
-            information regarding humidity, real-feel temperature and more.
+            A Small business webpage built for HISCAPE, a local landscaping
+            company that is starting new. Using react-router for navigation to
+            move seamlessly through pages. A webpage with real world
+            application.
           </p>
           <a
-            className="rounded-full bg-blue-500 hover:bg-blue-700 text-white p-2  dark:bg-slate-900  dark:hover:bg-slate-800"
+            className="rounded-full bg-blue-500 hover:bg-blue-700 text-white p-2 dark:bg-slate-900  dark:hover:bg-slate-700"
             target="blank_"
-            href="https://flor3z.github.io/theWeatherApp/"
+            href="https://www.hiscape.ca/"
           >
             Visit Page
           </a>
@@ -240,34 +245,67 @@ function Portfolio() {
             Visit Page
           </a>
         </div>
+
         <div
           className={`${
             inView
-              ? 'dark:bg-gray-600 bg-white text-center shadow-xl p-10 rounded-xl my-5 mx-auto animate-fade-left animate-once animate-duration-1000 animate-delay-[1300ms] animate-ease-in-out'
+              ? 'dark:bg-gray-600 bg-white  text-center shadow-xl p-10 rounded-xl my-5 mx-auto animate-fade-left animate-once animate-duration-1000 animate-delay-[1200ms]  animate-ease-in-out'
               : ''
           }`}
         >
           <img
             alt="portrait"
             className=" mx-auto rounded-xl"
-            src={score}
+            src={weather}
             width={300}
             height={300}
           />
           <h3 className="font-semibold text-xl dark:text-white py-2">
-            Score Board
+            Weather & Forecast
           </h3>
           <p className="dark:text-slate-300 py-2 mb-2">
-            Designed for Volleyball enthusiasts, get a game record and keep
-            track of a match between two teams. Or keep score for any game.
+            Check your local weather by searching your city and review
+            information regarding humidity, real-feel temperature and more.
           </p>
           <a
-            className="rounded-full bg-blue-500 hover:bg-blue-700 text-white p-2 dark:bg-slate-900  dark:hover:bg-slate-700"
+            className="rounded-full bg-blue-500 hover:bg-blue-700 text-white p-2  dark:bg-slate-900  dark:hover:bg-slate-800"
             target="blank_"
-            href="https://flor3z.github.io/scoreBoard-hooks/"
+            href="https://flor3z.github.io/theWeatherApp/"
           >
             Visit Page
           </a>
+        </div>
+
+        <div className="flex justify-center col-span-full">
+          <div
+            className={`${
+              inView
+                ? 'dark:bg-gray-600 bg-white text-center shadow-xl p-10 rounded-xl my-5 max-md:w-full w-1/2 justify-center animate-jump-in animate-once animate-duration-1000 animate-delay-[1300ms] animate-ease-in-out'
+                : ''
+            }`}
+          >
+            <img
+              alt="portrait"
+              className=" mx-auto rounded-xl"
+              src={score}
+              width={300}
+              height={300}
+            />
+            <h3 className="font-semibold text-xl dark:text-white py-2">
+              Score Board
+            </h3>
+            <p className="dark:text-slate-300 py-2 mb-2">
+              Designed for Volleyball enthusiasts, get a game record and keep
+              track of a match between two teams. Or keep score for any game.
+            </p>
+            <a
+              className="rounded-full bg-blue-500 hover:bg-blue-700 text-white p-2 dark:bg-slate-900  dark:hover:bg-slate-700"
+              target="blank_"
+              href="https://flor3z.github.io/scoreBoard-hooks/"
+            >
+              Visit Page
+            </a>
+          </div>
         </div>
       </div>
     </div>
