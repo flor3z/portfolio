@@ -146,7 +146,7 @@ function Portfolio() {
           <a
             className="rounded-full bg-blue-500 hover:bg-blue-700 text-white p-2 dark:bg-slate-900  dark:hover:bg-slate-700"
             target="blank_"
-            href="https://www.hiscape.ca/"
+            href="https://hi-scape.vercel.app/"
           >
             Visit Page
           </a>
